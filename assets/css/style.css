@@ -102,3 +102,38 @@ body {
   padding-left: 12px;
   margin-left: 12px;
 }
+
+/* menu */
+.menu-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+.menu-item {
+  width: 280px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.orange {
+  background-color: #f39323;
+}
+.blue {
+  background-color: #02aef0;
+}
+.violet {
+  background-color: #90278e;
+}
+.green {
+  background-color: #9cbb43;
+}
+.menu-link {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+}
