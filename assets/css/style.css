@@ -201,6 +201,9 @@ body {
   text-decoration: underline;
   text-transform: uppercase;
 }
+.link-more:hover {
+  text-decoration: none;
+}
 .icon-header {
   display: flex;
   margin-bottom: 35px;
